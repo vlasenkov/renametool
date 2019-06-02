@@ -23,7 +23,7 @@ const uint16_t DTO  = 0x9003;
 
 
 JpgParser::JpgParser()
-	: m_exif_header("^Exif\\0\\0(?:MM|II)\\0\*.*", std::regex_constants::ECMAScript | regex::optimize)
+    : m_exif_header("^Exif\\0\\0(?:MM|II)\\0\*.*", std::regex_constants::ECMAScript | regex::optimize)
 {}
 
 

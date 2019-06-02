@@ -9,7 +9,7 @@ class JpgParser : public IParser {
     std::regex m_exif_header;
 public:
     JpgParser();
-	void read_datetime(const std::filesystem::path& filename, DateTime& dt);
+    void read_datetime(const std::filesystem::path& filename, DateTime& dt);
 };
 
 #endif
